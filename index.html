@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Problems</title>
+    <style>
+        .calculator {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: #ffffff;
+
+        }
+
+        h3 {
+            color: #ffffff;
+        }
+        .program-1{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Question no 1 -->
+    <div class="program-1">
+        <div>
+            <label for="name">Enter Your Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name"> <br>
+        <label for="email">Enter Your Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Your email"> <br>
+        <button id="submit" onclick="submit()">Submit</button>
+        </div>
+
+    </div>
+
+    <!-- Question no 2 -->
+    <div class="calculator">
+        <div>
+            <label for="num1">Number</label><br>
+            <input type="text" name="num1" placeholder="Enter First Number" id="num1"><br>
+            <label for="num2">Number</label><br>
+            <input type="text" name="num2" placeholder="Enter Second Number" id="num2"> <br>
+            <label for="operator">Operator</label><br>
+            <input type="text" name="operator" placeholder="Enter Your Operator" id="operator"> <br>
+            <button id="calculate" onclick="calculate()">Calculate</button>
+            <h3 id="head-3"></h3>
+        </div>
+    </div>
+    <!-- Question no 3 -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
