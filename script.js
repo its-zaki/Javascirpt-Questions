@@ -14,40 +14,40 @@ function submit(){
 
 
 
-// let num1 = (document.querySelector("#num1"))
-// let num2 = (document.querySelector("#num2"))
-// let operator = document.querySelector("#operator")
-// let head = document.querySelector("#head-3")
-// function calculate(){
+let num1 = (document.querySelector("#num1"))
+let num2 = (document.querySelector("#num2"))
+let operator = document.querySelector("#operator")
+let head = document.querySelector("#head-3")
+function calculate(){
     
-//     switch(operator.value){
-//         case("+"):
-//         let sum = num1.value + num2.value;
-//         console.log( sum );
-//         head.innerHTML = "Your answer is------} " + sum;
-//         break
-//         case("-"):
-//         let sub = num1.value - num2.value;
-//         head.innerHTML = "Your answer is------} " + sub;
+    switch(operator.value){
+        case("+"):
+        let sum = num1.value + num2.value;
+        console.log( sum );
+        head.innerHTML = "Your answer is------} " + sum;
+        break
+        case("-"):
+        let sub = num1.value - num2.value;
+        head.innerHTML = "Your answer is------} " + sub;
 
-//         break
-//         case("*"):
-//         let multiply = num1.value * num2.value;
-//         head.innerHTML = "Your answer is------} " + multiply;
+        break
+        case("*"):
+        let multiply = num1.value * num2.value;
+        head.innerHTML = "Your answer is------} " + multiply;
 
-//         break
-//         case("/"):
-//         let division = num1.value / num2.value;
-//         head.innerHTML = "Your answer is------} " + division;
+        break
+        case("/"):
+        let division = num1.value / num2.value;
+        head.innerHTML = "Your answer is------} " + division;
 
-//         break
+        break
         
-//         default:
-//             console.log("Operator Sahi Put Karo")
-//     }
+        default:
+            console.log("Operator Sahi Put Karo")
+    }
     
 
-// }
+}
 
 
 // Question no 3
@@ -63,32 +63,32 @@ function dropdown (){
 
 // Question no 4
 
-// function changetext(){
-//     let paragraph = document.querySelector("#para-change")
-//     paragraph.style.backgroundColor="yellow"
-//     paragraph.style.padding="50px"
-//     paragraph.style.fontSize="3rem"
-//     paragraph.innerHTML="Hello DOM"
+function changetext(){
+    let paragraph = document.querySelector("#para-change")
+    paragraph.style.backgroundColor="yellow"
+    paragraph.style.padding="50px"
+    paragraph.style.fontSize="3rem"
+    paragraph.innerHTML="Hello DOM"
     
 
-// }
+}
 
 
 // Question no 5
-// function change_color(){
-//     const mydiv = document.querySelector("#my-div");    
+function change_color(){
+    const mydiv = document.querySelector("#my-div");    
     
-//     if(mydiv.style.backgroundColor =="white"){
-//         mydiv.style.backgroundColor="blue";
-//         mydiv.style.color="white";
+    if(mydiv.style.backgroundColor =="white"){
+        mydiv.style.backgroundColor="blue";
+        mydiv.style.color="white";
         
-//     }
-//     else{
-//         mydiv.style.backgroundColor="white";
-//         mydiv.style.color="black";
-//     }
+    }
+    else{
+        mydiv.style.backgroundColor="white";
+        mydiv.style.color="black";
+    }
 
-// }
+}
 
 
 
