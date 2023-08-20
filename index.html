@@ -21,13 +21,23 @@
         h3 {
             color: #ffffff;
         }
-        .program-1{
+
+        .program-1 {
             width: 100%;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            
+
+        }
+
+        .text-1 {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
         }
     </style>
 
@@ -38,10 +48,10 @@
     <div class="program-1">
         <div>
             <label for="name">Enter Your Name</label><br>
-        <input type="text" id="name" name="name" placeholder="Enter Your Name"> <br>
-        <label for="email">Enter Your Email</label><br>
-        <input type="email" id="email" name="email" placeholder="Enter Your email"> <br>
-        <button id="submit" onclick="submit()">Submit</button>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"> <br>
+            <label for="email">Enter Your Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your email"> <br>
+            <button id="submit" onclick="submit()">Submit</button>
         </div>
 
     </div>
@@ -60,6 +70,64 @@
         </div>
     </div>
     <!-- Question no 3 -->
+    <h1>Dropdown Menu</h1>
+    
+    <select  id="select">
+        <option value="january">january</option>
+        <option value="febraury">febraury</option>
+        <option value="march">march</option>
+        <option value="april">april</option>
+        <option value="may">may</option>
+        <option value="june">june</option>
+        <option value="july">july</option>
+        <option value="august">august</option>
+        <option value="september">september</option>
+        <option value="october">october</option>
+        <option value="november">november</option>
+        <option value="december">december</option>
+    </select>
+    <button onclick="dropdown()">Submit</button>
+    
+
+
+
+
+
+    <!-- Question no 4 -->
+    <div class="text-1">
+    <div >
+        <p  id="para-change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque ipsum maiores magnam eveniet
+            cupiditate culpa, itaque omnis odit voluptates molestiae. Nulla accusantium delectus magnam soluta vitae qui
+            fugit illo?</p><br>
+            <button id="btn-change" onclick="changetext()">Change Text</button>
+    </div>
+    
+</div>
+
+    <!-- Question no 5 -->
+    <div class="text-1">
+        <div id="my-div">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque ipsum maiores magnam eveniet
+                cupiditate culpa, itaque omnis odit voluptates molestiae. Nulla accusantium delectus magnam soluta vitae
+                qui
+                fugit illo?</p><br>
+            </div>
+            <button onclick="change_color()">Change Color</button>
+    </div>
+
+
+    <!-- Question no 6 -->
+    <div class="text-1">
+        <div>
+            <p id="para-h">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magni, illo dolor nesciunt sequi
+                cumque cupiditate iure deserunt debitis aliquam dolorum, animi ullam! Ea assumenda quod quam recusandae!
+                Aliquam, ad.
+            </p>
+            <button id="show-btn" onclick="show_hidden_text()">Show Hidden Text</button>
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
